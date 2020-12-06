@@ -4,6 +4,7 @@ body{
   margin: 0px;
   background-color: #C1CFDA;
   color: #03191E;
+  border: solid black 15px;
 }
 
 h1{
@@ -26,6 +27,13 @@ p {
   margin: 20 auto 0 auto;
   line-height: 2;
   font-size: 1.25rem;
+}
+
+hr {
+  border: dotted #03191E .5px;
+  border-bottom: none;
+  width: 20%;
+  margin: 50px auto;
 }
 
 .top {
@@ -93,6 +101,7 @@ p {
   text-align: center;
   margin-bottom: 0;
   color: #C1CFDA;
+  font-size: .75rem;
 }
 
 .skill-row{
